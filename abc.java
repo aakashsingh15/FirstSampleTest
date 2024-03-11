@@ -7,10 +7,13 @@ public class abc {
         int prod = m * n;
         int div = m / n;
         int rem = m % n;
+        int max = Math.max(m, n);
         System.out.println("sum=" + sum);
         System.out.println("diff=" + diff);
         System.out.println("prod=" + prod);
         System.out.println("div=" + div);
         System.out.println("rem=" + rem);
+        System.out.println("max=" + max);
+
     }
 }
